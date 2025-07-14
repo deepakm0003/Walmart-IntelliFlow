@@ -60,6 +60,24 @@ Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate d
 
 ---
 
+## Screenshots of Running Website
+
+<img width="1920" height="1428" alt="screencapture-localhost-5173-2025-07-14-22_31_00" src="https://github.com/user-attachments/assets/332dd090-780e-4c10-bd42-3889adbcc2f3" />
+
+<img width="1920" height="1445" alt="screencapture-localhost-5173-shipments-2025-07-14-22_31_12" src="https://github.com/user-attachments/assets/4d53f02a-2c05-46d9-a05d-be367ac443db" />
+
+<img width="1920" height="3312" alt="screencapture-localhost-5173-admin-2025-07-14-22_37_39" src="https://github.com/user-attachments/assets/0466f302-2804-461c-b824-f58c633717db" />
+
+
+<img width="1920" height="1428" alt="screencapture-localhost-5173-2025-07-14-22_31_37" src="https://github.com/user-attachments/assets/fbb486fd-9fd8-4665-b017-d18121828f99" />
+
+<img width="1920" height="1428" alt="screencapture-localhost-5173-2025-07-14-22_31_46" src="https://github.com/user-attachments/assets/8bd1e1c0-5ba6-461c-9517-5d15dfcf243d" />
+
+<img width="1920" height="1428" alt="screencapture-localhost-5173-2025-07-14-22_31_59" src="https://github.com/user-attachments/assets/593ddbb0-82c0-4194-90e9-bb05a30dc706" />
+
+<img width="1920" height="7173" alt="screencapture-localhost-5173-warehouse-MP001-2025-07-14-22_32_15" src="https://github.com/user-attachments/assets/afe3fa15-d63d-4df0-a089-316257bb741c" />
+
+
 ## 🛠️ Tech Stack
 
 | Layer         | Technology                                 |
@@ -93,6 +111,15 @@ python main.py   # Backend (For ML API used)
 node server/index.js -- To run the server of the Shipment and the Admin Action Dashboard and update it.
 
 ```
+
+## Backend Functionality Screenshots
+
+<img width="891" height="403" alt="Screenshot 2025-07-14 225442" src="https://github.com/user-attachments/assets/a837089f-30db-4b44-8e99-7908449bbd7f" />
+
+<img width="1201" height="640" alt="Screenshot 2025-07-14 225308" src="https://github.com/user-attachments/assets/4a2c65a0-7dec-4329-b838-b770ff87748f" />
+
+<img width="1074" height="596" alt="Screenshot 2025-07-14 225430" src="https://github.com/user-attachments/assets/898f6d3a-acef-486b-8d31-cc90cfdc657f" />
+
 
 ---
 
