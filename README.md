@@ -35,10 +35,22 @@ Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate d
   - Festival-based Filter
   - Customer History-based Filter
 
+### ✈️ Full Shipment Lifecycle Monitoring
+- Tracks shipments via:
+   -🚢 Ship
+   -✈️ Airplane
+   -🚛 Truck
+ - Displays:
+   ETA, 
+   Origin/Destination
+ - Status: In Transit, Loading, Delayed, Delivered
+ - Priority: Low, Medium, High, Critical
+ - Shipment rerouting based on real-time weather alerts
+
 ### 🔍 Simulation & What-If Panel
 - Test new warehouse placement or closure.
 - Run delivery simulations for upcoming sales/festivals.
-- View impact on margins, carbon footprint, delivery times.
+- View impact on margins, carbon footprint, and delivery times.
 
 ### 🤖 AI Assistant (WarehouseBot)
 - Ask warehouse-level questions like:
@@ -73,12 +85,11 @@ npm install
 
 # 3. Install backend dependencies (optional Flask APIs)
 pip install -r requirements.txt
+python -m pip install flask flask-cors  OR  pip install flask flask-cors
 
-# 4.
-
-# 5. Run frontend and backend
+# 4. Run frontend and backend
 npm start       # Frontend
-python main.py   # Backend (if ML API used)
+python main.py   # Backend (For ML API used)
 node server/index.js -- To run the server of the Shipment and the Admin Action Dashboard and update it.
 
 ```
