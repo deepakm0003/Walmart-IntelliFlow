@@ -1,52 +1,120 @@
-Walmart IntelliFlow 🧠📦🚚
-A climate-aware, AI-driven Warehouse Optimization and Logistics Re-routing System for Walmart India — built for internal operations and supply chain administrators.
 
-This platform forecasts warehouse-level demand using seasonal, festival, and behavioral data. It enables intelligent restocking recommendations, detects climate-based disruptions, and automatically re-routes shipments using Google Maps and Weather APIs.
+# 🧠 Walmart IntelliFlow: AI-Powered Admin Platform for Adaptive Supply Chain Optimization
 
-⚙️ Built for Walmart Sparkathon 2025 – Admin Control System
+Walmart IntelliFlow is an advanced, admin-focused supply chain optimization dashboard built for Walmart’s operations team. This solution dynamically monitors, predicts, and routes product inventory based on live warehouse data, AI-driven demand forecasts, real-time climate events, and global shipment conditions.
 
-🚀 Features
-🧠 Intelligent Demand Forecasting
-🌦️ Climate & Season-aware Supply Chain Adaptation
-🚢 Import/Export Routing with Auto-Rerouting Logic
-📍 Live Shipment Tracking via Google Maps
-📊 Admin Dashboard with Replenishment Engine
-🤖 AI Agent Assistant for Warehouse Queries
-📦 Smart Restock Recommendation with Purchase Order Templates
-📈 “What-if” Forecast Simulation Panel
-⚠️ Auto-generated Risk Alerts & Route Warnings
+Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate demand, avoid delivery disruptions, and manage warehouse stock in real-time using artificial intelligence and predictive simulations.
 
-🏗️ Architecture Overview
-React.js — Admin Dashboard UI
+---
 
-Python + Flask/FastAPI — Backend Logic & APIs
+## 🚀 Key Features
 
-Pandas / scikit-learn / Prophet — ML Forecast Models
+### 🧠 AI Demand Forecast Engine
+- Predicts demand using time-series order data, customer history, and external indicators.
+- Automatically generates a list of items to restock based on population-level demand around each warehouse.
 
-Google Maps API — Real-time shipment map + routing
+### 🌦️ Climate-Aware Routing with Auto-Rerouting
+- Integrates Google Maps API + OpenWeatherMap API to monitor conditions during product shipment.
+- Reroutes incoming goods from ship/air based on real-time climate threats (e.g. monsoon, storms).
+- Selects nearest best-suited warehouse if default warehouse is blocked.
 
-OpenWeatherMap API — Live weather data for rerouting logic
+### 🎉 Festival & Season-Aware Inventory Planning
+- Detects upcoming festivals and seasons using prebuilt datasets and adjusts restocking priority.
+- Dynamically forecasts items in demand based on festival calendar + previous seasonal patterns.
 
-MongoDB / Firebase — Data storage (inventory, orders, warehouse states)
+### 📦 Intelligent Replenishment Engine
+- Evaluates stock vs. predicted demand at every warehouse.
+- Triggers auto-generation of purchase orders for admins to approve or modify.
 
-🧩 Core Modules
-Module	Description
-Replenishment Engine	Forecasts demand and prioritizes restocks per warehouse
-Inventory Analyzer	Matches demand vs current stock to identify shortfalls
-Shipment Tracker	Maps shipments from ship/air to warehouse; reroutes if needed
-Climate-based Rerouting	Detects weather threats and auto-assigns alternate destinations
-Festival & Seasonal Filters	Dynamically adjusts product priority based on time context
-Forecast Simulator	Simulates demand for future events (festivals/weather)
-Admin Agent (WarehouseBot)	AI-based assistant to answer warehouse logistics queries
-Smart PO Generator	Auto-generates purchase orders when restocks are needed
-Alert System	Issues operational alerts for delays, shortages, risks
+### 🗺️ Live Admin Dashboard (React.js)
+- Visualize shipment paths, delivery delays, and rerouting plans on a map.
+- See dynamic restock suggestions for each warehouse with reasons and filters applied.
+- Includes 4 demand filters:
+  - No Filter
+  - Season-based Filter
+  - Festival-based Filter
+  - Customer History-based Filter
 
-📸 Dashboard Preview
-[Insert screenshots or gifs here showing dashboard, shipment tracking, smart recommendations]
+### 🔍 Simulation & What-If Panel
+- Test new warehouse placement or closure.
+- Run delivery simulations for upcoming sales/festivals.
+- View impact on margins, carbon footprint, delivery times.
 
-🧪 Sample Use Case
-Warehouse: Mumbai
-Incoming Shipment: Electronics (via Ship)
-Weather Alert: Storm in Arabian Sea → Auto-rerouted to Goa warehouse
-Festival Filter: Diwali → High demand for gift boxes & lights
-Action: Restock triggered for gift boxes in 3 warehouses with shortage
+### 🤖 AI Assistant (WarehouseBot)
+- Ask warehouse-level questions like:
+  - “What is the most demanded item this week in Mumbai?”
+  - “Why was the shipment to Hyderabad rerouted?”
+  - “Which warehouse has overstock on electronics?”
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technology                                 |
+|---------------|---------------------------------------------|
+| Frontend      | React.js, TailwindCSS, Leaflet/Mapbox       |
+| Backend       | Node.js + Express.js, Flask (optional ML)   |
+| AI/ML         | scikit-learn, Prophet, TensorFlow, Pandas   |
+| APIs          | Google Maps API, OpenWeatherMap API, Holiday Calendar |
+| Database      | MongoDB or Firebase                         |
+| Dev Tools     | GitHub, Vercel, Postman                     |
+
+---
+
+## 📁 Directory Structure
+
+```
+updated walmart/
+├── project/
+│   ├── frontend/               # React Admin Dashboard
+│   ├── backend/                # Node API + Flask ML APIs (optional)
+│   ├── data/                   # Mock/real demand datasets
+│   ├── ai-models/              # Forecast & ML logic (Jupyter Notebooks)
+│   ├── public/                 # Static assets & map config
+│   └── README.md
+```
+
+---
+
+## ⚙️ How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/walmart-intelliflow.git
+
+# 2. Install frontend dependencies
+cd project
+npm install
+
+# 3. Install backend dependencies (optional Flask APIs)
+pip install -r requirements.txt
+
+# 4. Add your API keys to .env:
+GOOGLE_MAPS_API_KEY=xxxx
+OPENWEATHER_API_KEY=yyyy
+
+# 5. Run frontend and backend
+npm start       # Frontend
+python app.py   # Backend (if ML API used)
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- Blockchain traceability for shipment validation
+- Satellite data + drone integration for rural warehouse visibility
+- IoT integration for temperature monitoring in transit
+- AI-powered supplier scoring and adaptive lead time adjustment
+
+---
+
+## 🏆 Built For
+
+Walmart Sparkathon 2025  
+Team: Admin AI Optimization Squad  
+Track: Smart Supply Chain & Logistics
+
+---
+
+> © 2025 Walmart IntelliFlow — Smart Warehousing, Smarter Decisions.
