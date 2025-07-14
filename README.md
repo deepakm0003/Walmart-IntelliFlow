@@ -3,7 +3,7 @@
 
 Walmart IntelliFlow is an advanced, admin-focused supply chain optimization dashboard built for Walmart’s operations team. This solution dynamically monitors, predicts, and routes product inventory based on live warehouse data, AI-driven demand forecasts, real-time climate events, and global shipment conditions.
 
-Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate demand, avoid delivery disruptions, and manage warehouse stock in real-time using artificial intelligence and predictive simulations.
+Developed for Walmart Sparkathon 2025, this intelligent platform empowers Walmart to forecast demand, prevent delivery disruptions, and manage warehouse inventory in real-time across India. It also enables efficient tracking and coordination of shipments across all transportation modes.
 
 ---
 
