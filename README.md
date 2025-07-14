@@ -61,26 +61,11 @@ Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate d
 
 ---
 
-## 📁 Directory Structure
-
-```
-updated walmart/
-├── project/
-│   ├── frontend/               # React Admin Dashboard
-│   ├── backend/                # Node API + Flask ML APIs (optional)
-│   ├── data/                   # Mock/real demand datasets
-│   ├── ai-models/              # Forecast & ML logic (Jupyter Notebooks)
-│   ├── public/                 # Static assets & map config
-│   └── README.md
-```
-
----
-
 ## ⚙️ How to Run
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/walmart-intelliflow.git
+[git clone https://github.com/yourusername/walmart-intelliflow.git]
 
 # 2. Install frontend dependencies
 cd project
@@ -89,13 +74,13 @@ npm install
 # 3. Install backend dependencies (optional Flask APIs)
 pip install -r requirements.txt
 
-# 4. Add your API keys to .env:
-GOOGLE_MAPS_API_KEY=xxxx
-OPENWEATHER_API_KEY=yyyy
+# 4.
 
 # 5. Run frontend and backend
 npm start       # Frontend
-python app.py   # Backend (if ML API used)
+python main.py   # Backend (if ML API used)
+node server/index.js -- To run the server of the Shipment and the Admin Action Dashboard and update it.
+
 ```
 
 ---
