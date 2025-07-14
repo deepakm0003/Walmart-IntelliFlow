@@ -7,6 +7,10 @@ Built for Walmart Sparkathon 2025, this platform enables Walmart to anticipate d
 
 ---
 
+# Note:- The Vercel Website server is not running now because of the use of the FlaskAPI App, and this API is the development API, not for Production.
+## To use this application, download it, read the instructions, and then run it.
+
+
 ## 🚀 Key Features
 
 ### 🧠 AI Demand Forecast Engine
