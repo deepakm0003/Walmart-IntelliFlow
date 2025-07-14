@@ -1,0 +1,72 @@
+[
+  {
+    "warehouseId": "UP001",
+    "itemName": "Traditional Spices",
+    "quantity": 300,
+    "requestedAt": "2025-07-14T14:03:00.351Z",
+    "status": "rejected"
+  },
+  {
+    "warehouseId": "RJ001",
+    "itemName": "Cold Beverages - 500ml",
+    "quantity": 1500,
+    "requestedAt": "2025-07-14T14:05:45.205Z",
+    "status": "rejected"
+  },
+  {
+    "warehouseId": "DL001",
+    "itemName": "Sandalwood Products",
+    "quantity": 300,
+    "requestedAt": "2025-07-14T14:06:19.318Z"
+  },
+  {
+    "warehouseId": "DL001",
+    "itemName": "Tea Leaves - 250g",
+    "quantity": 660,
+    "requestedAt": "2025-07-14T14:08:07.618Z"
+  },
+  {
+    "warehouseId": "RJ001",
+    "itemName": "Fresh Vegetables - Mixed",
+    "quantity": 240,
+    "requestedAt": "2025-07-14T14:10:39.262Z"
+  },
+  {
+    "warehouseId": "RJ001",
+    "itemName": "Wheat Flour - 10kg",
+    "quantity": 750,
+    "requestedAt": "2025-07-14T14:11:27.722Z"
+  },
+  {
+    "warehouseId": "UP001",
+    "itemName": "Tea Leaves - 250g",
+    "quantity": 660,
+    "requestedAt": "2025-07-14T14:19:04.967Z"
+  },
+  {
+    "warehouseId": "UP001",
+    "itemName": "Fresh Vegetables - Mixed",
+    "quantity": 240,
+    "requestedAt": "2025-07-14T14:21:29.249Z"
+  },
+  {
+    "warehouseId": "DL001",
+    "itemName": "Cooking Oil - 1L",
+    "quantity": 900,
+    "requestedAt": "2025-07-14T14:29:46.899Z",
+    "status": "approved"
+  },
+  {
+    "warehouseId": "TG002",
+    "itemName": "Hot Beverages - Tea/Coffee",
+    "quantity": 300,
+    "requestedAt": "2025-07-14T14:37:24.971Z",
+    "status": "rejected"
+  },
+  {
+    "warehouseId": "UP001",
+    "itemName": "Warm Food Items",
+    "quantity": 300,
+    "requestedAt": "2025-07-14T14:42:58.095Z"
+  }
+]
