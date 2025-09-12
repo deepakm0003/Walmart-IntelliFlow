@@ -99,7 +99,7 @@ Developed for Walmart Sparkathon 2025, this intelligent platform empowers Walmar
 
 ```bash
 # 1. Clone the repository
-[git clone https://github.com/yourusername/walmart-intelliflow.git]
+[git clone https://github.com/deepakm0003/walmart-intelliflow.git]
 
 # 2. Install frontend dependencies
 cd project
