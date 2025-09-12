@@ -7,7 +7,7 @@ Developed for Walmart Sparkathon 2025, this intelligent platform empowers Walmar
 
 ---
 
-# Note:- The Vercel Website server is not running now because of the use of the FlaskAPI App, and this API is the development API, not for Production.
+# Note:- The Vercel Website server is not running now because of the use of the FlaskAPI App, and this API is the development API, not the Production.
 ## To use this application, download it, read the instructions, and then run it.
 
 
